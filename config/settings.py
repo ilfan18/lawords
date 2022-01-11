@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     'courses',
     'users',
     'users_auth',
+    'start',
 ]
 
 MIDDLEWARE = [
@@ -132,8 +133,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATIC_DIR = os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = ['static/logo/', ]
+STATICFILES_DIRS = ['front_static']
 
 # Media files
 MEDIA_URL = '/media/'
