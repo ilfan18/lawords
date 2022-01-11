@@ -20,7 +20,6 @@ celerybeat-schedule
 env/
 *.ini
 media/*
-static/*
 
 # frontend
 

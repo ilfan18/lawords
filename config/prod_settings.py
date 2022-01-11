@@ -1,8 +1,5 @@
 import os
 
-# coding=utf-8
-import os
-
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 DEBUG = False
@@ -23,4 +20,4 @@ DATABASES = {
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
-STATICFILES_DIRS = ['front_static']
+STATIC_DIR = os.path.join(BASE_DIR, 'static')
