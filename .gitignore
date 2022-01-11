@@ -19,7 +19,6 @@ celerybeat-schedule
 .ipynb_checkpoints
 env/
 *.ini
-!*media/.gitkeep
 media/*
 static/*
 
@@ -48,3 +47,5 @@ pnpm-debug.log*
 *.njsproj
 *.sln
 *.sw?
+
+!*/.gitkeep
