@@ -170,7 +170,7 @@ EMAIL_HOST_PASSWORD = ''
 EMAIL_HOST_USER = 'ilfanmuratov@gmail.com'
 EMAIL_PORT = 465
 EMAIL_USE_SSL = True
-DEFAULT_FROM_EMAIL = 'ilfanmuratov@gmail.com'
+DEFAULT_FROM_EMAIL = 'lawords <noreply@lawords.ru>'
 
 # My user settings
 CUSTOM_USER_SYSTEM = {
