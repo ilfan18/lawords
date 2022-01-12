@@ -13,7 +13,7 @@ DEBUG = True
 
 SITE_NAME = "Lawords"
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['lawords.ru', 'www.lawords.ru']
 
 # Application definition
 INSTALLED_APPS = [
@@ -81,11 +81,14 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dev_db',
-        'USER': 'postgres',
-        'PASSWORD': '123',
+        'NAME': 'prod_db',
+        'USER': 'admin',
+        'PASSWORD': '1234567ilfan',
         'HOST': 'localhost',
         'PORT': '5432',
+        'TEST': {
+            'NAME': 'test_db',
+        },
     }
 }
 
