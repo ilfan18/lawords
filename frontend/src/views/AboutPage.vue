@@ -31,6 +31,10 @@ export default {
             font-weight: 600;
             font-size: 25px;
             line-height: 29px;
+            margin-bottom: 20px;
+        }
+        p {
+            margin-bottom: 15px;
         }
     }
 }
