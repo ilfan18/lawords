@@ -141,7 +141,7 @@ class Exercise(models.Model):
 class Answer(models.Model):
     """Модель варианта ответа."""
 
-    text = models.CharField('Текст ответа', max_length=400)
+    text = RichTextField('Основной текст')
     right = models.BooleanField('Верный ответ', default=False)
     exercise = models.ForeignKey(
         verbose_name='Вариант ответа',
