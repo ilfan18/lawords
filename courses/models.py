@@ -123,9 +123,8 @@ class Exercise(models.Model):
         blank=True,
         help_text='Оставьте пустым, если тип не "Перевод с картинки"'
     )
-    text = models.TextField(
-        'Текст вопроса',
-        max_length=500,
+    text = RichTextField(
+        'Основной текст',
         help_text='Используйте "__" для пропуска'
     )
 
@@ -141,7 +140,7 @@ class Exercise(models.Model):
 class Answer(models.Model):
     """Модель варианта ответа."""
 
-    text = RichTextField('Основной текст')
+    text = models.CharField('Текст ответа', max_length=400)
     right = models.BooleanField('Верный ответ', default=False)
     exercise = models.ForeignKey(
         verbose_name='Вариант ответа',
