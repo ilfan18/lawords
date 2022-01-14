@@ -141,12 +141,6 @@ export default {
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
-        p {
-            margin-bottom: 10px;
-            &:last-of-type {
-                margin-bottom: 0;
-            }
-        }
     }
 
     &__help {
@@ -162,6 +156,16 @@ export default {
         justify-content: space-between;
         flex-wrap: wrap;
         margin: -10px;
+    }
+}
+</style>
+<style lang="scss">
+.exercise-item__text {
+    p {
+        margin-bottom: 10px;
+        &:last-of-type {
+            margin-bottom: 0;
+        }
     }
 }
 </style>
