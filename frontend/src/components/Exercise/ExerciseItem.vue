@@ -141,6 +141,12 @@ export default {
         font-weight: 500;
         font-size: 20px;
         line-height: 24px;
+        p {
+            margin-bottom: 10px;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
     }
 
     &__help {

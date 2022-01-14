@@ -37,7 +37,7 @@
                 :submitted="submitted"
                 :errors="password_alert"
             />
-            <form-button :submitting="regestering">Войти</form-button>
+            <form-button :submitting="regestering">Зарегистрироваться</form-button>
         </form>
         <div class="login">
             или
