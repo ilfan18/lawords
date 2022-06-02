@@ -13,7 +13,7 @@ DEBUG = True
 
 SITE_NAME = "Lawords"
 
-ALLOWED_HOSTS = ['89.108.78.61', 'lawords.ru', 'www.lawords.ru']
+ALLOWED_HOSTS = ['80.78.248.61', 'lawords.site', 'www.lawords.site']
 
 # Application definition
 INSTALLED_APPS = [
@@ -173,7 +173,7 @@ EMAIL_HOST_PASSWORD = 'iqonzzedjmlygqkv'
 EMAIL_HOST_USER = 'ilfanmuratov@gmail.com'
 EMAIL_PORT = 465
 EMAIL_USE_SSL = True
-DEFAULT_FROM_EMAIL = 'lawords <noreply@lawords.ru>'
+DEFAULT_FROM_EMAIL = 'lawords <noreply@lawords.site>'
 
 # My user settings
 CUSTOM_USER_SYSTEM = {
