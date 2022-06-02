@@ -13,7 +13,7 @@ DEBUG = True
 
 SITE_NAME = "Lawords"
 
-ALLOWED_HOSTS = ['37.140.199.203', 'lawords.site', 'www.lawords.site']
+ALLOWED_HOSTS = ['80.78.248.61', 'lawords.site', 'www.lawords.site']
 
 # Application definition
 INSTALLED_APPS = [
